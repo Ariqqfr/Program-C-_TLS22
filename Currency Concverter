@@ -1,0 +1,26 @@
+/*Currency Converter*/
+#include <iostream>
+using namespace std;
+
+int main() {
+   double $,A$,C$,euro,sterling,yen;
+int Rp;
+cout<<"Input currenct in Rupiah: "<<endl;
+cin>> Rp;
+
+$ = Rp*0.000065;
+A$ = Rp*0.00010;
+C$ = Rp*0.000091;
+euro = Rp*0.000067;
+sterling = Rp* 0.000059;
+yen = Rp*0.0095;
+
+cout<<"In US dollar : "<<endl<< $;
+cout<<endl<<"In Australian dollar : "<<endl<<A$<<"$";
+cout<<endl<<"In Canadian dollar : "<<endl<<C$<<"C$";
+cout<<endl<<"In Euro : "<<endl<< euro<<"Euro";
+cout<<endl<<"In Sterling : "<<endl<< sterling<< "Sterling";
+cout<<endl<<"In Yen : "<<endl<< yen<<"Yen";
+
+    return 0;
+}
